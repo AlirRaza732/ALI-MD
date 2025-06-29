@@ -8,12 +8,12 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
-// add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+//ALI-MD~6cEn2AwI#OkWNncO5k-YGZZmlpGBTz80HMUwzZilGInLtC0EUcAY
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
